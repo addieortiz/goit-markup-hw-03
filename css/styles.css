@@ -113,13 +113,14 @@ img {
 
 .contacts-menu .contact {
   color: var(--slate);
+  font-weight: 400;
 }
 
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .item:hover,
-.contacts-menu .item:focus {
+.contacts-menu .contact:hover,
+.contacts-menu .contact:focus {
   color: var(--iris);
 }
 
@@ -332,7 +333,7 @@ body {
 
 .team .name {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
   color: var(--navyblue);
